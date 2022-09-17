@@ -5,16 +5,19 @@ padding: 0;
 -moz-user-select: none;
 user-select: none;
 }
+
 @font-face {
 font-family: Montserrat;
 src: url('Montserrat-Medium.ttf');
 }
+
 #activityTitle{
 text-align:center;
 font-size:38px;
 font-family:Montserrat,Arial;
 margin-top:50px;
 }
+
 #cardArea{
 width:300px;
 height:200px;
@@ -25,6 +28,7 @@ border-radius:5px;
 position:relative;
 overflow:hidden;
 }
+
 .card{
 width:300px;
 height:200px;
@@ -36,6 +40,7 @@ color:#efefef;
 font-family:Montserrat,Arial;
 cursor:pointer;
 }
+
 #nextButton{
 width:80px;
 text-align:center;
@@ -50,9 +55,11 @@ border: 2px solid #1E824C;
 border-radius:5px;
 font-family:Montserrat,Arial;
 }
+
 #nextButton:hover{
 opacity:.6;
 }
+
 #finalMessage{
 text-align:center;
 font-size:30px;
